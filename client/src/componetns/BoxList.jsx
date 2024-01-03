@@ -53,7 +53,7 @@ export function Boxlist() {
               <div>{item.title}</div>
 
               <div>{item.description} </div>
-              <a href={item.url}>อ่านต่อ</a>
+              <a href={item.url} target="_blank">อ่านต่อ</a>
 
               <div className="flex flex-row gap-1">
                 <div>Tag:</div>
