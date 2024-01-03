@@ -34,7 +34,7 @@ export function Boxlist() {
   const handleDescriptionLength = (array) => {
     array.map((item) => {
       if (item.description.length > 100) {
-        item.description = item.description.slice(0, 100) + "...";
+        item.description = item.description.slice(0, 100) + " ...";
         return item;
       } else return item;
     });
